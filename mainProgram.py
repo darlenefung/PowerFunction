@@ -1,4 +1,4 @@
-from PowerFunctionRecursion import power
+from powerFunctionRecursion import power				# import the function
 
 base = float(raw_input("What is your base? "))			# asks for base
 exponent = int(raw_input("What is your exponent? "))	# asks for exponent
