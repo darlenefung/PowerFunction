@@ -1,9 +1,9 @@
 # Darlene Fung
 # 3/8/16
 
-''' Takes a base and exponent and calculates the value of base raised to the power of the integer '''
 
 def power(base, exponent):  # takes in 2 variables, a base and an exponent
+	''' Takes a base and exponent and calculates the value of base raised to the power of the integer '''
 	counter = 1				# keeps track of how many times the base as been multiplied
 	rememberNumber = base	# when program starts, the number you are multiplying is the base
 	if exponent == 0:		# if the exponent is 0, the answer is always 1
